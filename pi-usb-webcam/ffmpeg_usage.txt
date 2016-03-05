@@ -1,0 +1,13 @@
+//to generate based on sequential images:
+
+ffmpeg -framerate 40 -i '%04d.jpg' -c:v libx264 out.mp4
+
+//to rotate output file
+
+ffmpeg -i out.mp4 -vf "transpose=2,scale=960:720" out_rotated.mp4
+For the transpose parameter you can pass:
+
+0 = 90CounterCLockwise and Vertical Flip (default)
+1 = 90Clockwise
+2 = 90CounterClockwise
+3 = 90Clockwise and Vertical Flip

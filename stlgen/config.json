@@ -1,0 +1,19 @@
+{
+	"test1" : {
+		"name" : "test1",
+		"units" : "mm",
+		"resolution" : [0.1, 10],
+		"format" : "ascii"
+
+
+	},
+	"test2" : {
+		"name" : "test2",
+		"units" : "mm",
+		"resolution" : [0.1, 5],
+		"format" : "ascii"
+
+
+	}
+
+}

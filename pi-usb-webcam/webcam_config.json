@@ -1,0 +1,14 @@
+/*convert to json format
+
+device /dev/video0
+input 0
+skip 4
+font luxisr:24
+resolution 1280x720
+jpeg 95
+timestamp "%Y-%m-%d %H:%M:%S"
+frames 4
+bottom-banner
+title "AntCam"
+
+*/

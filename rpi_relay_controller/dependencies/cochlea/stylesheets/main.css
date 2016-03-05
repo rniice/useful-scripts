@@ -1,0 +1,12 @@
+.geomicon {
+  width: 1em;
+  height: 1em;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+nav {
+  max-width: 13em;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "rpi_relay_controller",
+  "version": "0.0.1",
+  "description": "control some relays from RPI",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rniice/rpi_relay_controller.git"
+  },
+  "author": "Michael Crockett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rniice/rpi_relay_controller/issues"
+  },
+  "homepage": "https://github.com/rniice/rpi_relay_controller",
+  "dependencies": {
+    "gpio": "^0.2.7",
+    "repeat": "0.0.6"
+  }
+}

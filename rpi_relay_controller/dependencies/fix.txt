@@ -1,0 +1,30 @@
+ ---- PART 1 ----
+install quick2wire-libs
+
+make
+sudo make install
+sudo adduser $USER gpio
+
+
+% gpio-admin export 22
+% cat /sys/devices/virtual/gpio/gpio22/value
+
+
+
+ ---- PART 2 ----
+
+
+Solution 1
+
+chmod -R +x /sys/devices/soc/20200000.gpio
+Solution 2
+
+Update the pi-gpio.js so that
+
+sysFsPath = "/sys/devices/virtual/gpio";
+points to the new path:
+
+sysFsPath = "/sys/class/gpio";
+Solution 3
+
+Add line device_tree= in /boot/config.txt. That will revert the links to be in the old path. Make sure you reboot after changing the config.txt.

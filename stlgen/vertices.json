@@ -1,0 +1,36 @@
+{
+	"version" : "1.0.0",
+	"standard" : {
+		"in2mm" : 25.4,
+		"xSeparation" : 0.20,
+		"ySeparation" : 0.20,
+		"standoffheight" : 0.5,
+		"plate_offset_x" : 1.905,
+		"plate_offset_y" : 2.00,
+		"platestackup" : 0.33, 
+		"washerthickness" : 0.005,
+		"clearance" : 0.006,
+		"filament_diameter" : 1.75,
+		"nozzle_diameter" : 0.4,
+		"invert_axes" : false
+	},
+	"test1_holes" :  {
+		"nozzle_temp" : 220,
+		"numwashers" : 2,
+		"travel_speed" : 3000.0,
+		"extrude_speed" : 300.0,
+		"retract_amount" : 0.25,
+		"retract_speed" : 1800,
+		"dwelltime" : 500,
+		"dip" : 0.5,
+		"fill_depth" : 2.03,
+		"fill_depth_linear" : 0.80,
+		"dip_plunge_speed" : 120,
+		"overfill_percent" : 0.20,
+		"hole_design" : true,
+		"slot_design" : false
+	},
+	"test2_holes" :  { 
+
+	}
+}
